@@ -3,11 +3,5 @@
 ################################################################################
 
 /.vs
-/WebApi.Playground.Application/obj
-/WebApi.Playground.Domain/obj
-/WebApi.Playground.Infrastructure/obj
-/WebApi.Playground.Interface/obj
-/WebApi.Playground.Application/bin
-/WebApi.Playground.Domain/bin
-/WebApi.Playground.Infrastructure/bin
-/WebApi.Playground.Interface/bin
+/*/obj
+/*/bin
