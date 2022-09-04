@@ -5,13 +5,15 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Playground.Interface", "WebApi.Playground.Interface\WebApi.Playground.Interface.csproj", "{A805EC42-2104-4BE5-B714-A64C7E60364E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Playground.Infrastructure", "WebApi.Playground.Infrastructure\WebApi.Playground.Infrastructure.csproj", "{E5E0D017-CE75-4297-92F4-E089212FDA59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Playground.Infrastructure", "WebApi.Playground.Infrastructure\WebApi.Playground.Infrastructure.csproj", "{E5E0D017-CE75-4297-92F4-E089212FDA59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Playground.Domain", "WebApi.Playground.Domain\WebApi.Playground.Domain.csproj", "{2692707D-6F90-4153-9BBD-8ABCD1C12677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Playground.Domain", "WebApi.Playground.Domain\WebApi.Playground.Domain.csproj", "{2692707D-6F90-4153-9BBD-8ABCD1C12677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Playground.Application", "WebApi.Playground.Application\WebApi.Playground.Application.csproj", "{4A32769B-5D34-4656-A42E-1CA8294A8041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Playground.Application", "WebApi.Playground.Application\WebApi.Playground.Application.csproj", "{4A32769B-5D34-4656-A42E-1CA8294A8041}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Framework", "..\webapi-framework\WebApi.Framework.csproj", "{96520F17-E0E2-41D4-B1EE-8805C7115A22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Playground.Startup", "WebApi.Playground.Startup\WebApi.Playground.Startup.csproj", "{200E6083-FEC6-4B54-B233-4A35E08FD0CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{96520F17-E0E2-41D4-B1EE-8805C7115A22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96520F17-E0E2-41D4-B1EE-8805C7115A22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96520F17-E0E2-41D4-B1EE-8805C7115A22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200E6083-FEC6-4B54-B233-4A35E08FD0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200E6083-FEC6-4B54-B233-4A35E08FD0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200E6083-FEC6-4B54-B233-4A35E08FD0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200E6083-FEC6-4B54-B233-4A35E08FD0CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
